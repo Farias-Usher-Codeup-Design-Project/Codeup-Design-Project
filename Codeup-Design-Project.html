@@ -10,6 +10,9 @@
 
     <script src="https://kit.fontawesome.com/fd863b4eca.js" crossorigin="anonymous"></script>
     <style>
+        * {
+            box-sizing: border-box;
+        }
         body{
             background-color: #E6E6E6;
         }
@@ -22,7 +25,22 @@
             font-size: 15px;
             text-align: center;
         }
-
+        .red{
+             background-color: #e6563b;
+            margin: 20px 20px 40px 20px;
+         }
+        .orange{
+            background-color: #eb9d3a;
+            margin: 20px 20px 40px 20px;
+        }
+        .green{
+            background-color: #7cb06c;
+            margin: 20px 20px 40px 20px;
+        }
+        .blue{
+            background-color: #00aba9;
+            margin: 20px 20px 40px 20px;
+        }
         .row{
             justify-content: space-evenly;
         }
@@ -47,7 +65,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-#E6E6E6">
     <div class="container-fluid">
-        <img src="img/photos/logo.png" alt="" width="30" height="30"  class="d-inline-block align-text-top">
+        <img src="img/photos/logo.png" alt="" width="105" height="105"  class="d-inline-block align-text-top">
         codeup design
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,10 +87,10 @@
             <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
             <br>
             <h2>FROM PARK CITY, UTAH</h2>
-            <button type="button" class="btn btn-success btn-circle btn-xl">DESIGN</button>
-            <button type="button" class="btn btn-secondary btn-circle btn-xl">DEVELOP</button>
-            <button type="button" class="btn btn-primary btn-circle btn-xl">SUPPORT</button>
-            <button type="button" class="btn btn-danger btn-circle btn-xl">HOST</button>
+            <button type="button" class="btn btn-success btn-circle btn-xl red">DESIGN</button>
+            <button type="button" class="btn btn-secondary btn-circle btn-xl orange">DEVELOP</button>
+            <button type="button" class="btn btn-primary btn-circle btn-xl green">SUPPORT</button>
+            <button type="button" class="btn btn-danger btn-circle btn-xl blue">HOST</button>
         </div>
         <div class="row">
         <hr style="border: 3px solid olivedrab">
@@ -80,8 +98,7 @@
 
         <br>
 <div class="top">
-        <p>SELECTED WORK </p>
-        <p>THE LAST</p>
+        <p class="col-6">SELECTED WORK </p>
 </div>
         <div class="row">
             <div class="col-4 left">
@@ -105,13 +122,13 @@
 
 
             <div class="col-4 right">
-                <p class="the-last">THE LAST</p>
+                <p class="the-last col-6">THE LAST</p>
                 <img class="right-img" src="/img/photos/images/mobile-phone.jpg" alt="">
-                <p>FEATURED PROJECT</p>
+                <p style="font-weight: bold">THE ADMIN BAR AND ABSOLUTE POSITIONING</p>
                 <img class="right-img" src="/img/photos/images/head.jpg" alt="">
-                <p>FEATURED PROJECT</p>
+                <p style="font-weight: bold">NIBBLER AWESOME WEBSITE TESTING</p>
                 <img class="right-img" src="/img/photos/images/ipad.jpg" alt="">
-                <p>FEATURED PROJECT</p>
+                <p style="font-weight: bold">HOW TO GET GOOGLE TO LIKE YOU</p>
                 <p>LAST TWEET</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, consequatur cum deleniti dolores exercitationem fugit libero nam nihil numquam. Alias aliquam commodi delectus dolor maiores molestiae nam quisquam temporibus velit!</p>
 
