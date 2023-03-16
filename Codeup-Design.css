@@ -79,6 +79,50 @@ body{
     font-family: 'Anton', sans-serif;
 }
 
-.p{
+/* Small devices (phones and pocket devices, 576 and up) */
+@media screen and (max-width:600px) {
+    .codeup {
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .last{
+        display: none;
+    }
+    .left{
+       display: flex;
+       flex-direction: column;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width:900px) {
+    .codeup {
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .last{
+        display: none;
+    }
+    /*.left{*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*}*/
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (max-width: 1200px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1536px) {
+
 
 }
