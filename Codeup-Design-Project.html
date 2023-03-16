@@ -26,6 +26,20 @@
         .row{
             justify-content: space-evenly;
         }
+        .right-img{
+            width: 100px;
+            height: auto;
+            /*margin-right: -50px;*/
+        }
+        .left-img{
+            width: 200px;
+            height: 200px;
+            /*padding-right: 50px;*/
+        }
+        .selected-work{
+            padding-left: 200px;
+            padding-bottom: 20px;
+        }
     </style>
 </head>
 <body>
@@ -50,71 +64,50 @@
 <div class="container">
     <div class="row">
         <div class="text-center">
-<br>
             <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
-
-<br>
-
+            <br>
             <h2>FROM PARK CITY, UTAH</h2>
-<br>
+            <button type="button" class="btn btn-success btn-circle btn-xl">DESIGN</button>
+            <button type="button" class="btn btn-secondary btn-circle btn-xl">DEVELOP</button>
+            <button type="button" class="btn btn-primary btn-circle btn-xl">SUPPORT</button>
+            <button type="button" class="btn btn-danger btn-circle btn-xl">HOST</button>
         </div>
-    </div>
-</div>
-    <div class="container">
-            <div class="row">
-                <button type="button" class="btn btn-success btn-circle btn-xl">DESIGN</button>
-                <button type="button" class="btn btn-secondary btn-circle btn-xl">DEVELOP</button>
-                <button type="button" class="btn btn-primary btn-circle btn-xl">SUPPORT</button>
-                <button type="button" class="btn btn-danger btn-circle btn-xl">HOST</button>
-             </div>
+        <div class="row">
+        <hr style="border: 3px solid olivedrab">
+        </div>
+
+        <br>
+
+        <div class="row col-6">
+            <div class="selected-work">SELECTED WORK</div>
+            <div class="col-md-6 col-lg-6">
+                <img class="left-img" src="/img/photos/images/apple-ipad.jpg" alt="">
+                <p>FEATURED PROJECT</p>
+
+                    <img class="left-img" src="/img/photos/images/man.jpg" alt="">
+                <p>FEATURED PROJECT</p>
+                </div>
+
+                    <img class="left-img" src="/img/photos/images/macbook.jpg" alt="">
+                <p>FEATURED PROJECT</p>
+
+                <img class="left-img" src="/img/photos/images/security.jpg" alt="">
+                <p>FEATURED PROJECT</p>
+                </div>
+
+            <div class="col-md-6 col-lg-6">
+                <p>THE LAST</p>
+                <img class="right-img" src="/img/photos/images/mobile-phone.jpg" alt="">
+                <p>FEATURED PROJECT</p>
+                <img class="right-img" src="/img/photos/images/head.jpg" alt="">
+                <p>FEATURED PROJECT</p>
+                <img class="right-img" src="/img/photos/images/ipad.jpg" alt="">
+                <p>FEATURED PROJECT</p>
+                <p>LAST TWEET</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, consequatur cum deleniti dolores exercitationem fugit libero nam nihil numquam. Alias aliquam commodi delectus dolor maiores molestiae nam quisquam temporibus velit!</p>
+
             </div>
-
-<hr>
-<div class="row">
-    <div class="col-12 col-md-4" id="left-side">
-        <!-- left side content -->
-        <section>
-            <h6 class="section-heading">SELECTED WORK</h6>
-        </section>
-        <section>
-            <img src="/img/photos/images/apple-ipad.jpg">
-            <h6 class="section-heading">FEATURED PROJECT</h6>
-        </section>
-        <section>
-            <img src="/img/photos/images/macbook.jpg">
-            <h6 class="section-heading">FEATURED PROJECT</h6>
-        </section>
-        <section>
-            <img src="/img/photos/images/man.jpg">
-            <h6 class="section-heading">FEATURED PROJECT</h6>
-        </section>
-        <section>
-            <img src="/img/photos/images/security.jpg">
-            <h6 class="section-heading">FEATURED PROJECT</h6>
-        </section>
-    </div>
-    <div class="col-12 col-md-8" id="right-side" id="right-side">
-        <!-- Right side content -->
-        <section>
-            <h6 class="section-heading">THE LAST</h6>
-        </section>
-        <section>
-            <img src="/img/photos/images/mobile-phone.jpg">
-            <h6 class="section-heading">FEATURED PROJECT</h6>
-        </section>
-        <section>
-            <img src="/img/photos/images/head.jpg">
-            <h6 class="section-heading">FEATURED PROJECT</h6>
-        </section>
-        <section>
-            <img src="/img/photos/images/ipad.jpg">
-            <h6 class="section-heading">FEATURED PROJECT</h6>
-        </section>
-        <section>
-            <h6 class="section-heading">LAST TWEET</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cum distinctio, enim ex illum nam ut? Adipisci atque cumque, dolores doloribus ex, explicabo, omnis pariatur placeat qui veritatis vero voluptas.</p>
-        </section>
-
+        </div>
     </div>
 
 
