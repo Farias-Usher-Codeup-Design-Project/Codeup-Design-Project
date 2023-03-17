@@ -119,7 +119,7 @@ body{
         display: flex;
         box-sizing: content-box;
         width: 300px;
-        padding-left: 120px;
+        padding-left: 50px;
     }
 
 }
@@ -159,6 +159,9 @@ body{
         align-content: center;
         box-sizing: content-box;width: 300px;
     }
+    .top{
+        padding-left: 275px;
+    }
 
 
 }
@@ -172,7 +175,7 @@ body{
         box-sizing: content-box;
         width: 300px;
         padding: 0;
-        margin-left: 200px;
+        margin-left: 150px;
     }
     .last{
         display: flex;
@@ -184,6 +187,9 @@ body{
     }
     .right{
         padding-left: 50px;
+    }
+    .codeup{
+        margin: 0;
     }
 
 }
@@ -205,6 +211,9 @@ body{
         box-sizing: content-box;
         width: 300px;
         padding: 0;
+    }
+    .codeup{
+        margin: 0;
     }
 
 }
