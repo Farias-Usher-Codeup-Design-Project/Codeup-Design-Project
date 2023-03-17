@@ -4,6 +4,7 @@
 
 body{
     background-color: #E6E6E6;
+
 }
 
 .btn-circle.btn-xl {
@@ -66,10 +67,14 @@ body{
     width: 275px;
     height: 200px;
 }
-
-.top{
-    padding-left: 275px;
+.last{
+    margin-left: 105px;
 }
+
+
+/*.top{*/
+/*    padding-left: 275px;*/
+/*}*/
 
 .reg-font{
     font-family: 'Abel', sans-serif;
@@ -83,7 +88,7 @@ body{
 @media screen and (min-width:100px) and (max-width:600px) {
     .text-center{
         width: 452px;
-        padding-left: 100px;
+        /*padding-left: 100px;*/
     }
     body{
         width: 100%;
@@ -167,6 +172,7 @@ body{
         box-sizing: content-box;
         width: 300px;
         padding: 0;
+        margin-left: 200px;
     }
     .last{
         display: flex;
@@ -176,6 +182,10 @@ body{
         width: 300px;
         padding: 0;
     }
+    .right{
+        padding-left: 50px;
+    }
+
 }
 
 /* Extra large devices (large desktops) */
@@ -186,6 +196,7 @@ body{
         text-align: center;
         box-sizing: content-box;
         width: 300px;
+        margin-left: 200px;
     }
     .last{
         display: flex;
